@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,300&family=Dancing+Script:wght@700&family=Kanit:ital@1&display=swap');
+
+
+body {
+	
+	background-image: url("../imagenes/fondohp.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+	 
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	list-style: none;
+	font-family: 'Cormorant Infant', serif;
+	background-color: black;
+	padding: 5px; 0px;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Kanit', sans-serif;
+}
+
+
+.card{
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 300px;
+	border-radius: 5px;
+	background: var(--i);
+	background-size: cover;
+	overflow: hidden;
+}
+
+.content{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, .4);
+	opacity: 0;
+	transition: .5sg;
+}
+
+.content h1, a{
+	font-family: 'Cormorant Infant', serif;
+	color: rgba(255, 255, 255, .8);
+	margin: 5px 0;
+	
+}
+.content h4, h3{
+	font-family: 'Cormorant Infant', serif;
+	margin: 15px 0;
+}
+
+.card:hover .content {
+	opacity: 1;
+	
+}

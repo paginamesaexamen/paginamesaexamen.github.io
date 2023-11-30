@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,300&family=Dancing+Script:wght@700&display=swap');
+/* fondo de estilo degradado */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: *Poppins*, sans-serif;
+}
+body {
+	background-image: linear-gradient(135deg, #000000, #504A4A, #633E3E, #8A3838, #8E1313, #6C0B0B);
+	background-size: 500%;
+	animation: fanimado 10s infinite;
+}
+.texto{
+	color: white;
+	text-align: center;
+	margin: 300px 0;
+	font-size: 28px;
+	font-family: 'Cormorant Infant', serif;
+}
+@keyframes fanimado{
+	0%{
+		background-position: 0% 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0% 50%;
+	}
+}
+
+/*¨****************************************** */
+
+/* imagen 1 */
+
+.caja{
+	display: flex;
+}
+
+.imagen{
+	width: 200px;
+	height: 300px;
+	margin-right: 30px;
+}
+
+.caja, table{
+	margin: 25px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+/*¨****************************************** */
+
+/* imagen 2 */
+
+.cosa{
+	display: flex;
+}
+
+.img{
+	width: 200px;
+	height: 320px;
+	margin-right: 30px;
+}
+
+.cosa, imagen{
+	margin: 25px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+/* imagen 3 */
+
+.hp3{
+	display: flex;
+}
+
+.img3{
+	width: 250px;
+	height: 300px;
+	margin-right: 30px;
+}
+
+.hp3, cosa{
+	margin: 25px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+/* imagen 4 */
+
+.hp4{
+	display: flex;
+}
+
+.img4{
+	width: 200px;
+	height: 315px;
+	margin-right: 30px;
+}
+
+.hp4, img3{
+	margin: 25px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+/* imagen 5 */
+
+.hp5{
+	display: flex;
+}
+
+.img5{
+	width: 200px;
+	height: 315px;
+	margin-right: 30px;
+}
+
+.hp5, img4{
+	margin: 25px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+/* imagen 6 */
+
+.hp6{
+	display: flex;
+}
+
+.img6{
+	width: 200px;
+	height: 360px;
+	margin-right: 30px;
+}
+
+.hp6, img5{
+	margin: 30px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+/* imagen 7 */
+
+.hp7{
+	display: flex;
+}
+
+.img7{
+	width: 200px;
+	height: 390px;
+	margin-right: 30px;
+}
+
+.hp7, img6{
+	margin: 30px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
